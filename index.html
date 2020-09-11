@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Pomodoro Timer</title>
 </head>
@@ -26,7 +25,27 @@
         <button id="start" class="btn">Start</button>
         <button id="stop" class="btn">Pause</button>
         <button id="reset" class="btn">Reset</button>
-    </div>
+
+        
+        <div id="inits">
+            <hr/>
+            <!-- Formatando os inputs na tela -->
+            <p>
+                
+                <span>Working </span>
+                <input type="number" id="wm_init"/> 
+                <span> : </span>       
+                <input type="number" id="ws_init"/>
+            </p>
+            <p>
+
+                <span>Break &nbsp;&nbsp;&nbsp;</span>
+                <input type="number" id="bm_init"/>
+                <span> : </span>
+                <input type="number" id="bs_init"/>
+            </p>
+        </div>
+    </div>  
     <script src="main.js"></script>
 </body>
 </html>
